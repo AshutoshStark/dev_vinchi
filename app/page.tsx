@@ -33,7 +33,7 @@ export default function Home() {
       initial="hidden"
       animate="visible"
       className="flex justify-center items-center w-full h-auto md:h-screen bg-top md:bg-center bg-contain md:bg-cover bg-no-repeat overflow-hidden bg-[url(../public/assets/images/bgImage.svg)] ">
-      <motion.div variants={slideInFromTop} className="mt-40 md:mt-6 flex gao-6 md:gap-12 flex-col md:flex-row bg-emerald-300 px-5 md:px-12 py-6 rounded-lg w-full md:max-w-3/5 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-40">
+      <motion.div variants={slideInFromTop} className="mt-40 md:mt-6 flex gap-6 md:gap-12 flex-col md:flex-row bg-emerald-300 px-5 md:px-12 py-6 rounded-lg w-full md:max-w-[64%] bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-40">
          {/* for mobile images */}
          <div className="flex flex-row justify-between items-center -mt-28 md:hidden">
             <motion.button onClick={()=>imageSwiper(false)} className="bg-white backdrop-blur-lg rounded-full p-1.5">
@@ -88,7 +88,7 @@ export default function Home() {
           <motion.p variants={slideInFromRight(0.6)} className="text-base font-semibold">Visit for an in-person tour</motion.p>
           <motion.div variants={slideInFromRight(0.7)} className="flex">
             <img src="assets/images/formImage.svg" alt="image" className="w-1/5 " />
-            <p className="text-sm">Cashana or Khadijah will answer your questions and find you a space that meets your needs. No commitment necessary!</p>
+            <p className="text-xs">Cashana or Khadijah will answer your questions and find you a space that meets your needs. No commitment necessary!</p>
           </motion.div>
           <div className="w-full gap-2 flex flex-col justify-center items-center py-4">
             <input type="text" placeholder="First Name" className="border-2 border-gray-300 text-xs w-full rounded-sm p-2"/>
