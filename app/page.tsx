@@ -32,7 +32,7 @@ export default function Home() {
     <motion.div 
       initial="hidden"
       animate="visible"
-      className="flex justify-center items-center w-full h-auto bg-top md:bg-center bg-contain md:bg-cover bg-no-repeat overflow-hidden bg-[url(../public/assets/images/bgImage.svg)] ">
+      className="flex justify-center items-center w-full h-auto md:h-screen bg-top md:bg-center bg-contain md:bg-cover bg-no-repeat overflow-hidden bg-[url(../public/assets/images/bgImage.svg)] ">
       <motion.div variants={slideInFromTop} className="mt-40 md:mt-6 flex gao-6 md:gap-12 flex-col md:flex-row bg-emerald-300 px-5 md:px-12 py-6 rounded-lg w-full md:max-w-3/4 bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-40">
          {/* for mobile images */}
          <div className="flex flex-row justify-between items-center -mt-28 md:hidden">
