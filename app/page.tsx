@@ -80,7 +80,7 @@ export default function Home() {
           </div>
           {/* area description */}
           <div className="py-3">
-            <motion.p variants={slideInFromLeft(0.9)} className="text-[#00AA6c] text-sm">200-2 border-gray-600
+            <motion.p variants={slideInFromLeft(0.9)} className="text-[#00AA6c] text-xs">200-2 border-gray-600
               ,000 sq ft starting as low as $625/month</motion.p>
           </div>
         </div>
